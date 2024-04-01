@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import { handleImageError } from '../utils/common-utils';
+import { handleImageError } from '../../utils/common-utils';
 
 const Card = ({ data }) => {
   const { name, profile_picture, place, hobbies } = data;

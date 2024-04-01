@@ -1,4 +1,4 @@
-import { FALLBACK_PICTURE } from '../../constants/constants';
+import { FALLBACK_PICTURE } from '../../src/constants/constants';
 
   
 /**
