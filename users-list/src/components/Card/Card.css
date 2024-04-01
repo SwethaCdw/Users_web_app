@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  min-height: 250px;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fbfcff;
+  gap: 20px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(130, 159, 255, 0.2);
+  outline: 0.5px solid #829fff;
+}
+.card .profile-picture {
+  flex: 1 1 30%;
+}
+.card .profile-picture img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #808080;
+}
+.card .card-details {
+  flex: 1 1 70%;
+  padding-top: 20px;
+}
+.card .card-details .user-place {
+  font-weight: bold;
+}
+.card .card-details .hobbies-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  gap: 5px;
+}
+.card .card-details .hobbies-list .hobbies-list-item {
+  padding: 5px 10px;
+  border: 1.5px solid #829fff;
+  color: #829fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.card .card-details .hobbies-list .hobbies-list-item:hover {
+  background-color: #829fff;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=Card.css.map */

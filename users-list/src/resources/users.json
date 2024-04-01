@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "MS Dhoni",
+      "profile_picture": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/57.png",
+      "place": "Ranchi",
+      "hobbies": ["captaincy", "wicket keeping", "batting"]
+    },
+    {
+      "id": 2,
+      "name": "Jadeja",
+      "profile_picture": "https://w0.peakpx.com/wallpaper/805/873/HD-wallpaper-jadeja-csk-whistle-podu-yellow.jpg",
+      "place": "Jamnagar",
+      "hobbies": ["spinner", "fielding", "batting"]
+    },
+    {
+      "id": 3,
+      "name": "Ruturaj Gaikwad",
+      "profile_picture": "https://i.pinimg.com/originals/47/51/26/47512678e9bd8aadd76530d37ba2d499.jpg",
+      "place": "Pune",
+      "hobbies": ["captaincy", "batting"]
+    },
+    {
+      "id": 4,
+      "name": "Rachin Ravindra",
+      "profile_picture": "https://pbs.twimg.com/media/F7rrVuqaoAAnFnL.jpg:large",
+      "place": "New Zealand",
+      "hobbies": ["batting", "fielding", "bowling"]
+    },
+    {
+      "id": 5,
+      "name": "Maheesha Pathirana",
+      "profile_picture": "https://creativityblog.site/wp-content/uploads/2024/03/7177-201-13650-1.jpg",
+      "place": "Sri Lanka",
+      "hobbies": ["fast bowling"]
+    },
+    {
+      "id": 6,
+      "name": "Suresh Raina",
+      "profile_picture": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/284/14.png",
+      "place": "Rayna",
+      "hobbies": ["fielding", "batting"]
+    }
+  ]

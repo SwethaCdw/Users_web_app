@@ -1,0 +1,28 @@
+.search-container {
+  position: relative;
+  width: 300px;
+}
+.search-container .search-input {
+  width: 350px;
+  padding: 20px 40px;
+  border: 1px solid #829fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.search-container .search-input::-moz-placeholder {
+  font-weight: bold;
+}
+.search-container .search-input::placeholder {
+  font-weight: bold;
+}
+.search-container .search-input:focus {
+  border-color: #829fff;
+}
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #000;
+  font-size: 20px;
+}/*# sourceMappingURL=Search.css.map */

@@ -1,0 +1,57 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+
+.card {
+    display: flex;
+    min-height: 250px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: $card-background;
+    gap: 20px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $card-hover-background;
+      box-shadow: 0 4px 8px rgba(130, 159, 255, 0.2);
+      outline: 0.5px solid $primary-color;
+    }
+    .profile-picture{
+      flex: 1 1 30%;
+      img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-color: $profile-background;
+      }
+    }
+    .card-details{
+      flex: 1 1 70%;
+      padding-top: 20px;
+      .user-place{
+        font-weight: bold;
+      }
+      .hobbies-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        gap: 5px;
+        .hobbies-list-item {
+          padding: 5px 10px;
+          border: 1.5px solid $primary-color;
+          color: $primary-color;
+          font-size: $tag-font-size; 
+          font-weight: bold;
+          border-radius: 15px;
+          &:hover{
+            background-color: $primary-color;
+            color: $menu-text-color;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }

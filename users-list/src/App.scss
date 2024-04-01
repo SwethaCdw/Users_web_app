@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+@import './styles/mixins.scss';
+@import './styles/variables.scss';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  font-family: $font-family;
+  padding: 100px;
+
+  .title {
+    margin-left: 10px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    margin: 30px 10px;
+  }
+  
+  .users{
+    margin-top: 40px;
+    @include three-column-grid;
+  }
+  
+}
+
