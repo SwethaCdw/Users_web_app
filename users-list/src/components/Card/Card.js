@@ -16,8 +16,8 @@ const Card = ({ data }) => {
         <h2 className='user-name'>{name}</h2>
         <p className='user-place'>{place}</p>
         <ul className="hobbies-list">
-          {hobbies.map((hobby) => (
-            <li className='hobbies-list-item'>{hobby}</li>
+          {hobbies.map((hobby, index) => (
+            <li key={index} className='hobbies-list-item'>{hobby}</li>
           ))}
         </ul>
       </div>
