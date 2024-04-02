@@ -10,11 +10,12 @@
       @include center-content;
         width: 100px;
         height: 100%;
-        padding: 10px;
-        margin-right: 10px;
+        padding: 0.625rem;
+        margin-right: 0.625rem;
         border-radius: 10px;
         cursor: pointer;
         font-weight: bold;
+        color: $search-placeholder;
 
         a{
           text-decoration: none;
