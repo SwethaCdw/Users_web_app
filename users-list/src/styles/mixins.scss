@@ -1,0 +1,11 @@
+
+@mixin three-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@mixin center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
+
+.menu {
+    display: flex;
+    text-align: center;
+    height: 100%;
+  
+    .menu-item {
+      @include center-content;
+        width: 100px;
+        height: 100%;
+        padding: 0.625rem;
+        margin-right: 0.625rem;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: $search-placeholder;
+
+        a{
+          text-decoration: none;
+          color: $search-placeholder;
+        }
+  
+      &:hover {
+        background-color: $primary-color;
+        a{
+          color: $menu-text-color;
+        }
+      }
+      
+    }
+    .active {
+        background-color: $primary-color;
+        a{
+          color: $menu-text-color;
+        }
+      }
+  }

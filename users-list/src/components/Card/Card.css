@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.card {
+  display: flex;
+  min-height: 250px;
+  border: none;
+  border-radius: 20px;
+  padding: 1.25rem;
+  margin: 0.625rem;
+  background-color: #fbfcff;
+  gap: 20px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(130, 159, 255, 0.2);
+  outline: 0.5px solid #829fff;
+}
+.card .profile-picture {
+  flex: 1 1 30%;
+}
+.card .profile-picture img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #808080;
+}
+.card .card-details {
+  flex: 1 1 70%;
+  padding-top: 1.25rem;
+}
+.card .card-details .user-name {
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  font-weight: 800;
+}
+.card .card-details .user-place {
+  font-weight: 500;
+}
+.card .card-details .hobbies-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.25rem;
+  gap: 5px;
+}
+.card .card-details .hobbies-list .hobbies-list-item {
+  padding: 5px 10px;
+  border: 1.5px solid #829fff;
+  color: #829fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.card .card-details .hobbies-list .hobbies-list-item:hover {
+  background-color: #829fff;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=Card.css.map */
